@@ -1,0 +1,225 @@
+T24E0 025:226.311   SEGGER J-Link V7.52a Log File
+T24E0 025:226.490   DLL Compiled: Jul 28 2021 11:08:12
+T24E0 025:226.511   Logging started @ 2023-05-05 03:46
+T24E0 025:226.531 - 25226.542ms
+T24E0 025:231.070 JLINK_ExecCommand("Device = ATSAMD21G18A", ...). 
+T24E0 025:231.348   Device "ATSAMD21G18" selected.
+T24E0 025:231.757 - 0.657ms returns 0x00
+T24E0 025:567.682 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T24E0 025:568.787 - 1.174ms returns 0x00
+T24E0 025:568.855 JLINK_SetSpeed(4000)
+T24E0 025:569.079 - 0.263ms
+T24E0 025:569.136 JLINK_ResetPullsRESET(OFF)
+T24E0 025:569.156 - 0.030ms
+T24E0 025:569.177 JLINK_Connect()
+T24E0 025:569.524   InitTarget() start
+T24E0 025:569.582    J-Link Script File: Executing InitTarget()
+T24E0 025:572.910   InitTarget()
+T24E0 025:575.971   InitTarget() end
+T24E0 025:576.740   Found SW-DP with ID 0x0BC11477
+T24E0 025:579.144   DPIDR: 0x0BC11477
+T24E0 025:579.170   Scanning AP map to find all available APs
+T24E0 025:579.904   AP[1]: Stopped AP scan as end of AP map has been reached
+T24E0 025:579.923   AP[0]: AHB-AP (IDR: 0x04770031)
+T24E0 025:579.940   Iterating through AP map to find AHB-AP to use
+T24E0 025:580.927   AP[0]: Core found
+T24E0 025:580.945   AP[0]: AHB-AP ROM base: 0x41003000
+T24E0 025:581.634   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T24E0 025:581.659   Found Cortex-M0 r0p1, Little endian.
+T24E0 025:682.345   -- Max. mem block: 0x000013E0
+T24E0 025:682.545   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T24E0 025:682.952   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T24E0 025:683.367   CPU_ReadMem(4 bytes @ 0xE0002000)
+T24E0 025:683.752   FPUnit: 4 code (BP) slots and 0 literal slots
+T24E0 025:683.764   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T24E0 025:684.251   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T24E0 025:684.667   CPU_ReadMem(4 bytes @ 0xE0001000)
+T24E0 025:685.000   CPU_WriteMem(4 bytes @ 0xE0001000)
+T24E0 025:685.413   CoreSight components:
+T24E0 025:685.434   ROMTbl[0] @ 41003000
+T24E0 025:685.446   CPU_ReadMem(64 bytes @ 0x41003000)
+T24E0 025:686.272   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T24E0 025:686.826   ROMTbl[0][0]: E00FF000, CID: B105100D, PID: 000BB4C0 ROM Table
+T24E0 025:686.853   ROMTbl[1] @ E00FF000
+T24E0 025:686.866   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T24E0 025:687.612   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T24E0 025:688.200   ROMTbl[1][0]: E000E000, CID: B105E00D, PID: 000BB008 SCS
+T24E0 025:688.223   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T24E0 025:688.806   ROMTbl[1][1]: E0001000, CID: B105E00D, PID: 000BB00A DWT
+T24E0 025:688.824   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T24E0 025:689.382   ROMTbl[1][2]: E0002000, CID: B105E00D, PID: 000BB00B FPB
+T24E0 025:689.402   CPU_ReadMem(32 bytes @ 0x41006FE0)
+T24E0 025:690.045   ROMTbl[0][1]: 41006000, CID: B105900D, PID: 001BB932 MTB-M0+
+T24E0 025:690.123 - 120.950ms returns 0x00
+T24E0 025:690.246 JLINK_ExecCommand("ExcludeFlashCacheRange 0x0 - 0x40000", ...). 
+T24E0 025:690.266 - 0.008ms returns 0x00
+T24E0 025:690.324 JLINK_Halt()
+T24E0 025:693.203 - 2.891ms returns 0x00
+T24E0 025:694.779 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)
+T24E0 025:694.799 - 0.024ms returns 0
+T24E0 025:694.813 JLINK_ReadMemU32(0x41002018, 0x1 Items)
+T24E0 025:694.840   CPU_ReadMem(4 bytes @ 0x41002018)
+T24E0 025:695.247   Data:  05 03 01 10
+T24E0 025:695.263 - 0.453ms returns 1 (0x1)
+T03C8 025:704.003 JLINK_IsHalted()
+T03C8 025:704.395 - 0.411ms returns TRUE
+T03C8 025:704.435 JLINK_GetMOEs(...)
+T03C8 025:704.451   CPU_ReadMem(4 bytes @ 0xE000ED30)
+T03C8 025:704.843 - 0.412ms returns 0x01
+T03C8 025:704.858 JLINK_ReadReg(R15 (PC))
+T03C8 025:704.872 - 0.017ms returns 0x00035B54
+T24E0 025:801.807 JLINK_BeginDownload(Flags = 0x00000000)
+T24E0 025:801.836 - 0.032ms
+T24E0 025:801.866 JLINK_WriteMem(0x00012000, 0x2C940 Bytes, ...)
+T24E0 025:801.874   Data:  A8 7C 00 20 AD DE 02 00 A5 DF 02 00 A5 DF 02 00 ...
+T24E0 025:802.345   completely In flash
+T24E0 025:802.709    -- Read from flash cache (182592 bytes @ 0x00012000)
+T24E0 025:802.766 - 0.904ms returns 0x2C940
+T24E0 025:803.014 JLINK_WriteMem(0x0003E940, 0x37C Bytes, ...)
+T24E0 025:803.084   Data:  01 00 96 11 00 FF B1 03 01 2C 2D 00 B2 03 01 2C ...
+T24E0 025:803.109   completely In flash
+T24E0 025:803.123    -- Read from flash cache (892 bytes @ 0x0003E940)
+T24E0 025:803.134 - 0.123ms returns 0x37C
+T03C8 025:908.199 JLINK_IsHalted()
+T03C8 025:908.230 - 0.035ms returns TRUE
+T24E0 025:909.158 JLINK_EndDownload()
+T24E0 025:909.434   CPU_ReadMem(4 bytes @ 0x41006004)
+T24E0 025:909.875   CPU_ReadMem(4 bytes @ 0xE000ED90)
+T24E0 025:910.326    -- --------------------------------------
+T24E0 025:910.356   Flash bank @ 0x00000000: Default: L2 verify disabled because algorithm performs L1 verify
+T24E0 025:910.367    -- Start of determining dirty areas in flash cache
+T24E0 025:910.459    -- End of determining dirty areas
+T24E0 025:910.470    -- Start of preparing flash programming
+T24E0 025:910.484    -- Calculating RAM usage
+T24E0 025:910.562    -- RAM usage = 10020 Bytes
+T24E0 025:910.573    -- Preserving CPU registers
+T24E0 025:910.600    -- Preparing memory
+T24E0 025:910.611    -- Preparing target
+T24E0 025:910.621    -- Preserving target RAM temporarily used for programming
+T24E0 025:975.763    -- Downloading RAMCode
+T24E0 025:994.041    -- Preparing RAMCode
+T24E0 026:000.131    -- Checking target RAM
+T24E0 026:002.234    -- End of preparing flash programming
+T24E0 026:002.429   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\Atmel\Studio\7.0\atbackend\JLinkGUIServer.exe
+T24E0 026:002.540   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T24E0 026:303.642   Failed to connect to J-Link GUI Server.
+T24E0 026:329.753    -- CPU speed could not be measured.
+T24E0 026:329.794    -- Start of comparing flash
+T24E0 026:329.805    -- CRC check was estimated as fastest method
+T24E0 026:329.822    -- Comparing range 0x12000 - 0x31FFF (512 Sectors, 128 KiB), using multi-block CRC calculation
+T24E0 026:382.445    -- CRC does not match for sectors 0-4, 6-8, 14-15, 18, 21-511
+T24E0 026:382.483    -- Comparing range 0x32000 - 0x3ECFF (205 Sectors, 51 KiB), using multi-block CRC calculation
+T24E0 026:404.156    -- CRC does not match for sectors 0-204
+T24E0 026:404.192    -- Comparing range 0x12500 - 0x125FF (1 Sector, 256 Bytes), using alternative multi-block CRC calculation
+T24E0 026:405.908    -- All CRCs match
+T24E0 026:405.940    -- Comparing range 0x12900 - 0x12DFF (5 Sectors, 1 KiB), using alternative multi-block CRC calculation
+T24E0 026:408.596    -- All CRCs match
+T24E0 026:408.624    -- Comparing range 0x13000 - 0x131FF (2 Sectors, 512 Bytes), using alternative multi-block CRC calculation
+T24E0 026:410.729    -- All CRCs match
+T24E0 026:410.742    -- Comparing range 0x13300 - 0x134FF (2 Sectors, 512 Bytes), using alternative multi-block CRC calculation
+T24E0 026:412.884    -- All CRCs match
+T24E0 026:412.896    -- End of comparing flash
+T24E0 026:412.908    -- Start of erasing sectors
+T24E0 026:412.920    -- Erasing range 0x00012000 - 0x000124FF (  5 Sectors, 1 KB)
+T24E0 026:418.372    -- Erasing range 0x00012600 - 0x000128FF (  3 Sectors, 768 Bytes)
+T24E0 026:422.678    -- Erasing range 0x00012E00 - 0x00012FFF (  2 Sectors, 512 Bytes)
+T24E0 026:425.430    -- Erasing range 0x00013200 - 0x000132FF (  1 Sector, 256 Bytes)
+T24E0 026:427.294    -- Erasing range 0x00013500 - 0x0001B4FF (128 Sectors, 32 KB)
+T24E0 026:554.161    -- Erasing range 0x0001B500 - 0x000234FF (128 Sectors, 32 KB)
+T24E0 026:679.143    -- Erasing range 0x00023500 - 0x0002B4FF (128 Sectors, 32 KB)
+T24E0 026:804.330    -- Erasing range 0x0002B500 - 0x000334FF (128 Sectors, 32 KB)
+T24E0 026:930.931    -- Erasing range 0x00033500 - 0x0003B4FF (128 Sectors, 32 KB)
+T24E0 027:057.531    -- Erasing range 0x0003B500 - 0x0003ECFF ( 56 Sectors, 14 KB)
+T24E0 027:110.346    -- End of erasing sectors
+T24E0 027:110.376    -- Start of flash programming
+T24E0 027:110.389    -- Programming range 0x00012000 - 0x000124FF (  5 Sectors, 1 KB)
+T24E0 027:110.418    -- Programming range 0x00012600 - 0x000128FF (  3 Sectors, 768 Bytes)
+T24E0 027:110.440    -- Programming range 0x00012E00 - 0x00012FFF (  2 Sectors, 512 Bytes)
+T24E0 027:123.289    -- Programming range 0x00013200 - 0x000132FF (  1 Sector, 256 Bytes)
+T24E0 027:127.326    -- Programming range 0x00013500 - 0x0001B4FF (128 Sectors, 32 KB)
+T24E0 027:278.867    -- Programming range 0x0001B500 - 0x000234FF (128 Sectors, 32 KB)
+T24E0 027:448.980    -- Programming range 0x00023500 - 0x0002B4FF (128 Sectors, 32 KB)
+T24E0 027:619.156    -- Programming range 0x0002B500 - 0x000334FF (128 Sectors, 32 KB)
+T24E0 027:789.171    -- Programming range 0x00033500 - 0x0003B4FF (128 Sectors, 32 KB)
+T24E0 027:958.752    -- Programming range 0x0003B500 - 0x0003ECFF ( 56 Sectors, 14 KB)
+T24E0 028:044.023    -- End of flash programming
+T24E0 028:044.060    -- 0x12000 - 0x124FF (  5 Sectors, 1 KoB)
+T24E0 028:044.071    -- 0x12600 - 0x128FF (  3 Sectors, 768 Bytes)
+T24E0 028:044.081    -- 0x12E00 - 0x12FFF (  2 Sectors, 512 Bytes)
+T24E0 028:044.091    -- 0x13200 - 0x132FF (  1 Sector, 256 Bytes)
+T24E0 028:044.102    -- 0x13500 - 0x3ECFF (696 Sectors, 174 KoB)
+T24E0 028:044.113    -- Start of restoring
+T24E0 028:044.124    -- Restoring RAMCode
+T24E0 028:068.825    -- Restoring target memory
+T24E0 028:117.874    -- Restore target
+T24E0 028:117.907    -- Restore memory
+T24E0 028:117.918    -- Restoring CPU registers
+T24E0 028:117.943    -- End of restoring
+T24E0 028:118.009    -- Bank 0 @ 0x00000000: 5 ranges affected (180992 bytes)
+T24E0 028:118.033    -- Total: 2.207s (Prepare: 0.419s, Compare: 0.083s, Erase: 0.697s, Program & Verify: 0.955s, Restore: 0.052s)
+T24E0 028:118.051    -- Program & Verify speed: 185 KiB/s
+T24E0 028:121.800 - 2212.660ms returns 180992 (0x2C300)
+T24E0 028:121.910 JLINK_ResetPullsRESET(ON)
+T24E0 028:121.919 - 0.012ms
+T24E0 028:122.789 JLINK_ResetNoHalt()
+T24E0 028:123.057   InitTarget() start
+T24E0 028:123.079    J-Link Script File: Executing InitTarget()
+T24E0 028:123.098   InitTarget()
+T24E0 028:125.757   InitTarget() end
+T24E0 028:126.436   Found SW-DP with ID 0x0BC11477
+T24E0 028:129.117   DPIDR: 0x0BC11477
+T24E0 028:129.145   AP map detection skipped. Manually configured AP map found.
+T24E0 028:129.163   AP[0]: AHB-AP (IDR: Not set)
+T24E0 028:130.154   AP[0]: Core found
+T24E0 028:130.173   AP[0]: AHB-AP ROM base: 0x41003000
+T24E0 028:130.681   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T24E0 028:130.701   Found Cortex-M0 r0p1, Little endian.
+T24E0 028:232.564   -- Max. mem block: 0x000010C8
+T24E0 028:232.611   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T24E0 028:233.192   CPU_ReadMem(4 bytes @ 0xE0002000)
+T24E0 028:234.317   FPUnit: 4 code (BP) slots and 0 literal slots
+T24E0 028:234.367   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T24E0 028:234.810   CPU_ReadMem(4 bytes @ 0xE0001000)
+T24E0 028:235.447   CoreSight components:
+T24E0 028:235.524   ROMTbl[0] @ 41003000
+T24E0 028:235.539   CPU_ReadMem(64 bytes @ 0x41003000)
+T24E0 028:236.710   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T24E0 028:237.563   ROMTbl[0][0]: E00FF000, CID: B105100D, PID: 000BB4C0 ROM Table
+T24E0 028:237.667   ROMTbl[1] @ E00FF000
+T24E0 028:237.691   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T24E0 028:238.474   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T24E0 028:239.107   ROMTbl[1][0]: E000E000, CID: B105E00D, PID: 000BB008 SCS
+T24E0 028:239.194   CPU_WriteMem(4 bytes @ 0xE0001000)
+T24E0 028:239.630   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T24E0 028:240.565   ROMTbl[1][1]: E0001000, CID: B105E00D, PID: 000BB00A DWT
+T24E0 028:240.585   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T24E0 028:241.406   ROMTbl[1][2]: E0002000, CID: B105E00D, PID: 000BB00B FPB
+T24E0 028:241.420   CPU_ReadMem(32 bytes @ 0x41006FE0)
+T24E0 028:242.018   ROMTbl[0][1]: 41006000, CID: B105900D, PID: 001BB932 MTB-M0+
+T24E0 028:242.041   JLINK_Reset()
+T24E0 028:242.053     CPU_ReadMem(4 bytes @ 0x20000000)
+T24E0 028:242.468     CPU_WriteMem(4 bytes @ 0x20000000)
+T24E0 028:242.851     ResetTarget() start
+T24E0 028:242.862      J-Link Script File: Executing ResetTarget()
+T24E0 028:243.334     CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T24E0 028:243.676     CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T24E0 028:244.093     CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T24E0 028:246.438     CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T24E0 028:246.799     CPU_ReadMem(4 bytes @ 0x41002100)
+T24E0 028:247.160     CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T24E0 028:247.529     ResetTarget() end
+T24E0 028:251.025     CPU_WriteMem(4 bytes @ 0xE0002000)
+T24E0 028:251.487     CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T24E0 028:251.977     CPU_ReadMem(4 bytes @ 0xE0001000)
+T24E0 028:252.403     CPU_WriteMem(4 bytes @ 0xE0001000)
+T24E0 028:252.883   - 10.846ms
+T24E0 028:252.895   JLINK_Go()
+T24E0 028:252.909     CPU_ReadMem(4 bytes @ 0xE0001000)
+T24E0 028:253.400     CPU_WriteMem(4 bytes @ 0xE0001000)
+T24E0 028:253.836     CPU_WriteMem(4 bytes @ 0xE0001004)
+T24E0 028:254.851   - 1.966ms
+T24E0 028:254.866 - 132.081ms
+T24E0 028:263.499 JLINK_Close()
+T24E0 028:283.494 - 20.017ms
+T24E0 028:283.522   
+T24E0 028:283.529   Closed
