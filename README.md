@@ -1,6 +1,6 @@
 # ESE516-DarkMoon
 
-## Team member 
+## Team members
 Zhengyan Huan, Xiayu zeng
 
 ## Video
