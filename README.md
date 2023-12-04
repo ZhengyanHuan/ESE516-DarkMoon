@@ -1,7 +1,7 @@
 # ESE516-DarkMoon
 
-## Team member 
-Zhengyan Huan, Xiayu zeng
+## Team members
+Zhengyan Huan, Xiayu Zeng
 
 ## Video
 [![Watch the video](https://img.youtube.com/vi/uA40hQ0PbCM/hqdefault.jpg)](https://www.youtube.com/embed/uA40hQ0PbCM)
@@ -9,14 +9,14 @@ Zhengyan Huan, Xiayu zeng
 ## Pictures
 <p align="center">
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Front_view.png" width="18%"></img> 
-<img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Block_diagram.png" width="20%"></img> 
+<img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Block_diagram.png" width="18%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Top_view.png" width="20%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Bottom_view.png" width="20%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Heart_rate_mode.png" width="20%"></img> 
 
 <p align="center">
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/2D1.png" width="18%"></img> 
-<img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/3d1.png" width="20%"></img> 
+<img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/3d1.png" width="18%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/3d2.png" width="20%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Nodered.png" width="20%"></img> 
 <img src="https://github.com/watsom3ed/ESE516-DarkMoon/blob/main/figures/Dashboard.png" width="20%"></img> 
