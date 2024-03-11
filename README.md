@@ -1,7 +1,5 @@
 # ESE516-DarkMoon
 
-## 1/5 branchtest
-
 ## Team members
 Zhengyan Huan, Xiayu Zeng
 
